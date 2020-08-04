@@ -1,0 +1,62 @@
+.categories {
+  min-height: auto;
+}
+
+.categories-row {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.categories-row .col-s4 {
+  width: 24.6%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.categories-row .col-s4:hover .icon {
+  display: none;
+}
+.categories-row .col-s4 .icon {
+  width: 100px;
+}
+
+.categories-row .col-s4 .icon.active {
+  display: none;
+}
+.categories-row .col-s4:hover .icon.active {
+  display: inline-block;
+}
+
+.categories-row .col-s4:hover .title,
+.categories-row .col-s4:hover .sub-title {
+  color: #33bf5f;
+}
+
+/** icon toggle : START **/
+.categories-row .col-s4.accordion.active .icon {
+  display: none;
+}
+.categories-row .col-s4.accordion.active .icon.active {
+  display: inline-block;
+}
+.categories-row .col-s4.accordion.active .title,
+.categories-row .col-s4.accordion.active .sub-title {
+  color: #33bf5f;
+}
+/** icon toggle : END **/
+
+.categories-row .accordion-details {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+  text-align: center;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding: 0px 8% 0px 8%;
+}
+
+.categories-row .accordion-details-container {
+  margin: 30px 0;
+}
