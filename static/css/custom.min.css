@@ -1,10 +1,10 @@
 .categories {
-  min-height: auto;
+  min-height: 500px;
 }
 
 .categories-row {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 .categories-row .col-s4 {
@@ -59,4 +59,15 @@
 
 .categories-row .accordion-details-container {
   margin: 30px 0;
+}
+
+/* media queries for expertise icons */
+@media screen and (max-width: 598px) {
+  .categories-row .col-s4 {
+    width: 49.4%;
+    padding: 30px 0;
+  }
+  .categories-row .col-s4 .icon{
+    width: 32px;
+  }
 }
