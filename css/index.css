@@ -137,7 +137,7 @@ a.navbar-brand img {
 .expertise .exp-title {
   margin-top: 10px;
   margin-bottom: 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .expertise .exps .text-center a.active .exp-title,
@@ -149,7 +149,7 @@ a.navbar-brand img {
   color: #62004d;
 }
 .expertise .exp-sub-title {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
   line-height: 1;
 }
